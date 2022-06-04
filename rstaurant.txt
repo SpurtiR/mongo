@@ -1,0 +1,262 @@
+use db restaurant;
+db.restaurant.insertMany([
+      {"address":{
+	"building": "1024",
+	"coord": [ -53.856077, 21.848447 ],
+      "street":"4254 Wetzel Lane",
+      "zipcode":"49503",
+      "city":"Grand Rapids"
+    },
+    "cuisine": "Continental",
+    "grades":[{"date":new Date(),"grade": "A", "score": 50},
+              {"date":new Date(),"grade": "B", "score": 90} ],
+      "name":"Morris Restaurant",
+      "restaurant_id": 101
+    },
+      {"address":{
+"building": "1025",
+	"coord": [ -39.856077, 45.848447 ],
+      "street":"10 Columbus Circle",
+      "zipcode":"10019",
+      "city":"New York"
+    },
+    "cuisine": "French",
+    "grades":[{"date":new Date(),"grade": "B", "score": 90},
+              {"date":new Date(),"grade": "A", "score": 40} ],
+      "name":"Per Se Restaurant",
+      "restaurant_id": 102
+    },
+      {"address":{
+"building": "1026",
+	"coord": [ -23.856077, 48.848447 ],      
+"street":"Newport Road",
+      "zipcode":"19021",
+      "city":"Croydon"
+    },
+    "cuisine": "European",
+    "grades":[{"date":new Date(),"grade": "A", "score": 75},
+              {"date":new Date(),"grade": "B", "score": 92} ],
+      "name":" Cafe Coffee Day",
+      "restaurant_id": 103
+    },
+       {"address":{
+"building": "716E",
+	"coord": [ 73.856077, -40.848447 ],      
+"street":"Tamarack St",
+      "zipcode":"87401",
+      "city":"Farmington"
+    },
+    "cuisine": "Italian",
+    "grades":[{"date":new Date(),"grade": "A", "score": 75},
+              {"date":new Date(),"grade": "B", "score": 76} ],
+      "name":"Le Bernardin Restaurant",
+      "restaurant_id": 104
+    },
+     {"address":{
+"building": "1207",
+	"coord": [ 73.856077, -44.848447 ],      
+"street":"Pike St",
+      "zipcode":"80401",
+      "city":"Colorado"
+    },
+    "cuisine": "Indian",
+    "grades":[{"date":new Date(),"grade": "B", "score": 95},
+              {"date":new Date(),"grade": "A", "score": 94} ],
+      "name":"Cafe New Delhi",
+      "restaurant_id": 105
+    },
+	{"address":{
+"building": "2050",
+	"coord": [ 83.856077, 10.848447 ],
+      "street":"1723 N Halsted Street",
+      "zipcode":"60614",
+      "city":"Chicago"
+    },
+    "cuisine": "International",
+    "grades":[{"date":new Date(),"grade": "B", "score": 88},
+              {"date":new Date(),"grade": "A", "score": 74} ],
+      "name":"Alinea Restaurant",
+      "restaurant_id": 106
+    },
+	{"address":{
+"building": "750",
+	"coord": [ 73.856077, 4.848447 ],
+      "street":"11 Madison Avenue",
+      "zipcode":"10010",
+      "city":"New York"
+    },
+    "cuisine": "Chinese",
+    "grades":[{"date":new Date(),"grade": "A", "score": 98},
+              {"date":new Date(),"grade": "B", "score": 94} ],
+      "name":"Cafe Changs",
+      "restaurant_id": 107
+    },
+	{"address":{
+"building": "5109",
+	"coord": [ -3.856077, -10.848447 ],
+      "street":"Via Stella, 22",
+      "zipcode":"41121",
+      "city":"Modena"
+    },
+    "cuisine": "Continental",
+    "grades":[{"date":new Date(),"grade": "B", "score": 99},
+              {"date":new Date(),"grade": "B", "score": 96} ],
+      "name":"Osteria Francescana Restaurant",
+      "restaurant_id": 108
+    },
+	{"address":{
+"building": "454",
+	"coord": [ -3.856077, 4.848447 ],
+      "street":"W Center Street",
+      "zipcode":"91723",
+      "city":"California"
+    },
+    "cuisine": "European",
+    "grades":[{"date":new Date(),"grade": "A", "score": 88},
+              {"date":new Date(),"grade": "B", "score": 84} ],
+      "name":"The Song Of Europe",
+      "restaurant_id": 109
+    },
+	{"address":{
+"building": "100",
+	"coord": [ -3.856077, 88.848447 ],
+      "street":"Baldwin Road",
+      "zipcode":"11550",
+      "city":"Hempstead"
+    },
+    "cuisine": "International",
+    "grades":[{"date":new Date(),"grade": "A", "score": 9},
+              {"date":new Date(),"grade": "B", "score": 54} ],
+      "name":"The Restaurant At Meadowood",
+      "restaurant_id": 110
+    },
+	{"address":{
+"building": "13222",
+	"coord": [ -7.856077, 40.848447 ],
+      "street":"Midway Ave",
+      "zipcode":"20851",
+      "city":"Rockville"
+    },
+    "cuisine": "Central European",
+    "grades":[{"date":new Date(),"grade": "A", "score": 78},
+              {"date":new Date(),"grade": "A", "score": 94} ],
+      "name":"Cheval Blanc",
+      "restaurant_id": 111
+    },
+	{"address":{
+"building": "1018",
+	"coord": [ -5.856077, 9.848447 ],
+      "street":"31 Avenue George V",
+      "zipcode":"75008",
+      "city":"Paris"
+    },
+    "cuisine": "French",
+    "grades":[{"date":new Date(),"grade": "B", "score": 98},
+              {"date":new Date(),"grade": "A", "score": 100} ],
+      "name":"Cafe Le Cinq",
+      "restaurant_id": 112
+    },
+	{"address":{
+"building": "1019",
+	"coord": [ 3.856077, -40.848447 ],
+      "street":"1719 34th St.",
+      "zipcode":"95801",
+      "city":"Sacramento"
+    },
+    "cuisine": "American",
+    "grades":[{"date":new Date(),"grade": "A", "score": 99},
+              {"date":new Date(),"grade": "B", "score": 99} ],
+      "name":"Canon",
+      "restaurant_id": 113
+    },
+      {"address":{
+"building": "1020",
+	"coord": [ 3.856077,- 4.848447 ],      
+"street":"350 Mission St.",
+      "zipcode":"94101",
+      "city":"San Francisco"
+    },
+    "cuisine": "Hawaiian",
+    "grades":[{"date":new Date(),"grade": "B", "score": 88},
+              {"date":new Date(),"grade": "A", "score": 99} ],
+      "name":"Trailblazer Tavern",
+      "restaurant_id": 114
+    },
+	{"address":{
+"building": "1021",
+	"coord": [ -73.811077, 40.886447 ],
+      "street":"6518 Washington St.",
+      "zipcode":"94599",
+      "city":"Yountville"
+    },
+    "cuisine": "International",
+    "grades":[{"date":new Date(),"grade": "A", "score": 99},
+              {"date":new Date(),"grade": "B", "score": 98} ],
+      "name":"Cafe La Calenda",
+      "restaurant_id": 115
+    },
+	{"address":{
+"building": "1022",
+	"coord": [ -73.85418577, 40.85418547 ],
+      "street":"220 Western Ave.",
+      "zipcode":"94952",
+      "city":"Petaluma"
+    },
+    "cuisine": "European",
+    "grades":[{"date":new Date(),"grade": "A", "score": 100},
+              {"date":new Date(),"grade": "B", "score": 100} ],
+      "name":"Stockhome",
+      "restaurant_id": 116
+    },
+     {"address":{
+"building": "1023",
+	"coord": [ -54.856077, 54.848447 ],      
+"street":"5WW8+HRJ",
+      "zipcode":"482002",
+      "city":"Jabalpur"
+    },
+    "cuisine": "Indian",
+    "grades":[{"date":new Date(),"grade": "B", "score": 99},
+              {"date":new Date(),"grade": "A", "score": 99} ],
+      "name":"Cafeteria ISBT Chaupati",
+      "restaurant_id": 117
+    },
+	{"address":{
+"building": "2050",
+	"coord": [ -98.856077, 15.848447 ],
+      "street":"30 Avenue Aristide Briand",
+      "zipcode":"80401",
+      "city":"Colorado"
+    },
+    "cuisine": "spainish",
+    "grades":[{"date":new Date(),"grade": "A", "score": 98},
+              {"date":new Date(),"grade": "B", "score": 99} ],
+      "name":"Cafe Calma",
+      "restaurant_id": 118
+    },
+     {"address":{
+"building": "1025",
+	"coord": [ -73.84545477, 40.845454567 ],      
+"street":"Building 3, 16th Floor",
+      "zipcode":"121099",
+      "city":"Smolenskaya Square"
+    },
+    "cuisine": "Japanese",
+    "grades":[{"date":new Date(),"grade": "A", "score": 88},
+              {"date":new Date(),"grade": "B", "score": 94} ],
+      "name":"Cafeteria White Rabbit",
+      "restaurant_id": 119
+    },
+       {"address":{
+"building": "5109",
+	"coord": [ -73.4456077, 40.8117447 ],      
+"street":"Dacite Ct",
+      "zipcode":"89436",
+      "city":"Sparks"
+    },
+    "cuisine": "Italian",
+    "grades":[{"date":new Date(),"grade": "A", "score": 88},
+              {"date":new Date(),"grade": "B", "score": 84} ],
+      "name":"La Plessis",
+      "restaurant_id": 220
+    }]);
