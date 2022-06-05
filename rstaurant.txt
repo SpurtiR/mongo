@@ -1,4 +1,4 @@
-use db restaurant;
+use restaurant;
 db.restaurant.insertMany([
       {"address":{
 	"building": "1024",
